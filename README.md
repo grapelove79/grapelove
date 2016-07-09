@@ -155,8 +155,7 @@ nugurejeil.github.io/study/study_day8/index.html
 	null -> object
 	undefined -> undefined
 	```
-
-
+	
 ####boolean
 - true/ false 값 가짐
 - ! 이건 반대 의미. true, false에만 쓸 수 있음
@@ -167,14 +166,15 @@ nugurejeil.github.io/study/study_day8/index.html
 - 둘 다 빈 값.
 - type만 다름
 - undefined는 예약어 아님. 변수이름으로 쓸 수 있지만 값이 실제로 담기지는 않음
-
 	+ 변수마다 각 방을 만든다.
 	  a의 값을 B에 할당하고 B의 값을 바꾸면 B의 값은 바뀌지만 a는 원래 값 그대로다.
 
 	+ 객체자료형의 특징(방을 공유한다.)
-	 ``` var a=[1,2,3]
-	  var b=a;
-	  b=[3,2,1]
+	
+	``` 
+	var a=[1,2,3]
+	var b=a;
+	b=[3,2,1]
 	```
 	방을 공유하기 때문에 값이 a,b 둘다 바뀐다.	
 	
