@@ -1,6 +1,6 @@
 #JAVASCRIPT Study 복습
 
-[nugurejeil.github]nugurejeil.github.io/study/study_day8/index.html
+- JAVASCRIPT [nugurejeil.github]nugurejeil.github.io/study/study_day8/index.html
 
 - 자바스크립트 정식 명칭 ECMAScript
 - 자바스크립트 기본 문법
