@@ -145,8 +145,6 @@
 	세요"
 	```
 
-	* 자바스크립트 코드는 한줄에 써야한다. 두줄로 하면 에러
-
 	```
 	Boolean
 	ture, false
@@ -157,7 +155,8 @@
 	null -> object
 	undefined -> undefined
 	```
-	
+	* 자바스크립트 코드는 한줄에 써야한다. 두줄로 하면 에러
+
 ####boolean
 - true/ false 값 가짐
 - ! 이건 반대 의미. true, false에만 쓸 수 있음
