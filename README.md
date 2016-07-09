@@ -124,7 +124,11 @@ nugurejeil.github.io/study/study_day8/index.html
     + var a="안녕하\n세요";
     + 문자이지만 문자열로 해석하지 않는 이스케이프 문자들. \n:줄바꿈 \t:들여쓰기 \x:16진수로 바꿔줌 \u:유니코드해석
 - 백틱backtick 문자 ``로 묶으면 템플릿 문자열이 됨
-    + var name="하하" ``안녕하세요`,${name}님` -> 안녕하세요,하하님
+	 ```
+	var name="하하" 
+   	안녕하세요`,${name}님` -> 안녕하세요,하하님
+    	```
+    	
     	```
 	"30살야야"
 	NaN
@@ -161,6 +165,14 @@ nugurejeil.github.io/study/study_day8/index.html
 - ! 이건 반대 의미. true, false에만 쓸 수 있음
 - 문자열 중 빈문자열만 boolean값은 false
 - 숫자 0, NaN은 false
+```
+!"안녕"
+false
+```
+```
+!!"안녕"
+ture
+```
 
 ####undefined, null
 - 둘 다 빈 값.
