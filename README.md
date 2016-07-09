@@ -62,15 +62,15 @@ nugurejeil.github.io/study/study_day8/index.html
 	+ 프로퍼티는 객체 안에 들어있는 { 이름: 값 } 이름과 값의 쌍 묶음. 
 	+ 메소드는 프로퍼티의 그 값이 함수형태일 때.
 	+ {이름:값}, 근데 그 값이 함수일때 메소드라 부른다.
-        * var 라면={ 스프 : 넣어라;} 넣어라() 라는 함수
+		* var 라면={ 스프 : 넣어라;} 넣어라() 라는 함수
         			----------
 					propoty -> 값이 함수면 메소드.
 		* 라면.스프
-        * var 이지연 { 나이: 27; } -> 이건 프로퍼티
-        * var 영화{ 나이 : age; }  function age(){var a= Date.getYear(); var myAge= a-1990; return myAge;} -> 이건 메소드
-        * 문자열{indexOf:[];}
-		  > 문잘열{indexOf:함수}
-		  > 안녕하세요{indexOf:값(함수)}
+        	* var 이지연 { 나이: 27; } -> 이건 프로퍼티
+        	* var 영화{ 나이 : age; }  function age(){var a= Date.getYear(); var myAge= a-1990; return myAge;} -> 이건 메소드
+        	* 문자열{indexOf:[];}
+		문잘열{indexOf:함수}
+		안녕하세요{indexOf:값(함수)}
 - 원시자료형(숫자,문자열, 불리언, 널, 언디파인드)은 값 자체가 복사됨. 복사된 변수를 변경해도 원래 변수는 변하지 않음
     + var a=1; var b=a; var b=2; 하면 a=1, a=2 // 변수 a와 b는 아예 다른 방을 쓰므로
     + 배열과 같은 객체자료형은 변수의 공간(방)을 따로 만들어주는 게 아니라, 주소만 알려주는거라서 방을 공유함. 같은 주소 가진 변수의 값을 바꿔주면 다 바뀜.
