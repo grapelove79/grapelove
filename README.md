@@ -76,19 +76,25 @@ nugurejeil.github.io/study/study_day8/index.html
     + 배열과 같은 객체자료형은 변수의 공간(방)을 따로 만들어주는 게 아니라, 주소만 알려주는거라서 방을 공유함. 같은 주소 가진 변수의 값을 바꿔주면 다 바뀜.
 - typeof이용해서 타입 확인하기 쉬움 : 함수같은거 만들 때 typeof()연산자 이용해서 문자열만 받을거야! 이럴 때 씀.
 
-####숫자형
+####숫자
 - NaN: typeof 쓰면 number로 뜸, "안녕"*12 하면 NaN 뜸
 - isNaN() 이거 숫자가 아니니? :  숫자가 아니야 true/ 숫자야 false로 뜸 :  isNaN("안녕"*12) = true
     + 숫자면 false, 숫자가 아니면(NaN) true
 - 단항연산자 +, - 기호 바꾸는 용도
-	> isNaN("안녕");
-	> ture
+	```
+	isNaN("안녕");
+	ture
+	```
 
-	> isNan(123);   123은 숫자가 아닌거니?
-	> false         아니야 숫자야.
+	```
+	isNan(123);   123은 숫자가 아닌거니?
+	false         아니야 숫자야.
+	```
 
-	> typeof(NaN);
-	> "numer"
+	```
+	typeof(NaN);
+	"numer"
+	```
 
 	> 나머지 연산 : %
 	> 단항연산자 : +, - (기호를 바꿀수 있다)
@@ -125,8 +131,6 @@ nugurejeil.github.io/study/study_day8/index.html
 - type만 다름
 - undefined는 예약어 아님. 변수이름으로 쓸 수 있지만 값이 실제로 담기지는 않음
 
-			 
-	
 	+ 변수마다 각 방을 만든다.
 	  a의 값을 B에 할당하고 B의 값을 바꾸면 B의 값은 바뀌지만 a는 원래 값 그대로다.
 
@@ -146,23 +150,33 @@ nugurejeil.github.io/study/study_day8/index.html
 	자바스크립트 코드안에 JSON을 가져올때 ""를 사용한다.
 	개발자가 ''쓰는 이유는 단지 쓰기 편해서. 하지만 ""권장
 
-	+"30살야야"
+	```
+	"30살야야"
 	NaN
+	```
 
-	+ 이스케이프 문자
+	```
+	이스케이프 문자
 	\t : tab(들여쓰기)
 	\u :  유니코드로 해석
+	```
 	
-	> var a="안녕하\n세요";
-	> a
-	> "안녕하
-	> 세요"
+	``` 
+	var a="안녕하\n세요";
+	a
+	"안녕하
+	세요"
+	```
 
 	* 자바스크립트 코드는 한줄에 써야한다. 두줄로 하면 에러
 
-	+ Boolean
+	```
+	Boolean
 	ture, false
 	'!'는 '반대'이다. 
+	```
 
+	```
 	null -> object
 	undefined -> undefined
+	```
