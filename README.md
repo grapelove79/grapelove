@@ -163,10 +163,12 @@
 - ! 이건 반대 의미. true, false에만 쓸 수 있음
 - 문자열 중 빈문자열만 boolean값은 false
 - 숫자 0, NaN은 false
+
 ```
 !"안녕"
 false
 ```
+
 ```
 !!"안녕"
 ture
